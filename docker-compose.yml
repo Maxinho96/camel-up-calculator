@@ -1,0 +1,6 @@
+services:
+  camelup:
+    platform: linux/amd64
+    build: .
+    ports:
+      - "5123:5000"
